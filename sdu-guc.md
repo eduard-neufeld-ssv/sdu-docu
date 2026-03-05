@@ -1,3 +1,4 @@
 # SDU Gateway Update Client
 
-Ein Dienst auf dem Gateway welcher vom SDU-Server mit Update informationen und Software versorgt wird. Ebenso überprüft der Dienst die Signatur der erhaltenen Updates bevor diese an die [SDU Agenten](sdu-agent.md) übergeben wird.
+A service on the gateway that is supplied with update information and software by the SDU Server. The service also verifies the signature of received updates before passing them to the [SDU Agents](sdu-agent.md).
+

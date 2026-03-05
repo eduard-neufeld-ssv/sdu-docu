@@ -1,20 +1,20 @@
 # Manifest
 
-Das Manifest enthält alle Meta-Informationen für ein bereitgestelltes Update. 
-Es wird vom Signing Tool (SK) erzeugt und vom Gateway Update Client (GUC) 
-ausgewertet und die entsprechenden Informationen an den SDU Agenten weitergereicht.
+The manifest contains all meta-information for a provided update.
+It is created by the Signing Tool (SK) and evaluated by the Gateway Update Client (GUC),
+which then passes the corresponding information to the SDU Agent.
 
-Das Manifest ist eine S/MIME-signierte JSON-Datei. Das Signieren muss von einem **Maintainer** erfolgen.
+The manifest is an S/MIME-signed JSON file. Signing must be done by a **Maintainer**.
 
-## Inhalt des Manifests
-Body S/MIME-Datei:
+## Manifest Contents
+Body of S/MIME file:
 
 ```js
 {
-	"product": "rmg941", // Produktname
-	"version": "1.2.4", // Versionsname
-	"sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", // SHA256 der Daten
-	"comment": "" // Optional: Kommentar zur Version
-	// Produkt-spezifische Felder können bei Bedarf ergänzt werden
+	"product": "dummy", // Product name
+	"version": "1.2.4", // Version name
+	"sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", // SHA256 of the data
+	"comment": "" // Optional: comment for the version
+	// Product-specific fields can be added if needed
 }
 ```
