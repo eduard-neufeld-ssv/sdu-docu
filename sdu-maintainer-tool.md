@@ -17,7 +17,7 @@ To bundle and sign a single binary or a directory with software we need:
 	- Server address: `mysdu.ssv-service.de`
 	- Serialnumber of device we want to update: `879002525AABBCC`
 
-## Manage under Windows
+## Manage under Linux
 - Get the command line tool `sdu-management-tool`
 - Upload firmware to SDU server
 ```bash
@@ -33,7 +33,7 @@ To bundle and sign a single binary or a directory with software we need:
 ```
 - Other commands check `sdu-management-tool -h`
 
-## Manage under Linux
+## Manage under Windows
 - Download and install the application `SDU Management Tool Setup 4.0.1.exe`
 - Launch the application `SDU Management Tool` and configure the app under `Settings`
 ![MUC Settings](img/muc-settings.png)
